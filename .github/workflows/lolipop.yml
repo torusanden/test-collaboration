@@ -2,8 +2,7 @@ name: lolipop-test-collaboration
 on:
   push:
     branches:
-      - main
-
+      - develop
 jobs:
   deploy:
     runs-on: ubuntu-latest
