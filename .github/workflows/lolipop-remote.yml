@@ -2,7 +2,7 @@ name: remote-lolipop-test-collaboration
 on:
   push:
     branches:
-      - develop
+      - main
 jobs:
   deploy:
     runs-on: ubuntu-latest
